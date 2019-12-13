@@ -1,6 +1,6 @@
 <template>
   <div class="logo-wrapper">
-    <div
+    <!--<div
       :class="{
         'logo-inner': true,
         blink: blinking
@@ -16,7 +16,8 @@
         :key="`${x}-r`"
         :src="`/logo-frames/logo-f${frames - x}.svg`"
       />
-    </div>
+    </div>-->
+    <p>Dave Walsh</p>
   </div>
 </template>
 <script>
@@ -61,5 +62,9 @@ export default {
       animation: logoBlink 0.2s steps(8, end) alternate;
     }
   }
+}
+.logo-wrapper p {
+  font-size: 3em;
+  font-weight: bold;
 }
 </style>
