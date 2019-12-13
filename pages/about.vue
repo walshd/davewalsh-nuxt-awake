@@ -1,27 +1,25 @@
 <template>
   <div id="about-page" class="page-wrapper about-page content-page">
     <site-hero
-      title="About Us"
-      subtitle="Example About Page"
-      image="/uploads/about-hero.jpg"
+      title="About Dave walsh"
+      subtitle="Educator, Researcher, Designer & Developer"
+      image="/uploads/davewalsh-hero.jpg"
     ></site-hero>
     <main-section theme="sidebar-right">
       <template v-slot:default>
         <div class="content">
-          <h3>Fake Heading</h3>
-          <p>
-            <strong>
-              Edit this page in<code>/pages/about.vue</code>to fit your needs.
-            </strong>
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
-            eligendi impedit inventore ipsa laboriosam libero magnam modi odio,
-            sunt temporibus. Distinctio doloremque eum magni nostrum quasi
-            ratione rem repudiandae sit!
+          <h3>Educator, Researcher, Designer &amp Developer</h3>
+          <p>I enjoy learning! Both growing my own knowledge and helping others learn.
+          My biggest area of interest to both learn and teach is the web.
+          From designing and building websites to discovering all about the users of websites
+          and how their experiences can be improved. My Lecturing covers basic web design and
+          development, advanced coding through to data science, data analytics and user
+          experience design. My PhD is focussing on understanding user groups of Digital
+          Cultural Heritage websites.
           </p>
 
-          <h3>Another Fake Heading</h3>
+
+          <h3>Writings</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
             eligendi impedit inventore ipsa laboriosam libero magnam modi odio,
@@ -29,7 +27,7 @@
             ratione rem repudiandae sit!
           </p>
           <quote-card />
-          <h3>Still More Fake Content</h3>
+          <h3>Work</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
             eligendi impedit inventore ipsa laboriosam libero magnam modi odio,
