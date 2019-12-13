@@ -9,9 +9,9 @@ import theCMS from '../cms/netlify/cms'
  * General Site configurations
  */
 export default {
-  siteName: 'Awake',
-  tagline: 'A Nuxt.js Theme for Netlify CMS',
-  featureImage: '/uploads/home-hero.jpg',
+  siteName: 'Dave Walsh',
+  tagline: 'Educator, Researcher, Designer & Developer',
+  featureImage: '/uploads/davewalsh-hero.jpg',
   logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
     on: true,
@@ -23,26 +23,25 @@ export default {
       link: '/about'
     },
     {
+      name: 'Research',
+      link: '/research',
+      //target: '_blank'
+    },
+    {
+      name: 'Work',
+      link: '/work'
+    },
+    {
       name: 'Contact',
       link: '/contact'
     },
     {
-      name: 'Categories',
-      link: '/categories'
-    },
-    {
-      name: 'Github Repo',
-      link: 'https://github.com/danielkellyio/awake-template',
-      target: '_blank'
-    },
-    {
-      name: 'Awake+ Premium',
-      link: 'http://awake-premium-lp.danielkelly.io/',
-      target: '_blank'
+      name: 'Blog',
+      link: '/categories',
     }
   ],
   hero: {
-    theme: 'dark' // options: mist, light, dark
+    theme: 'mist' // options: mist, light, dark
   },
 
   // Main Layout/Style
@@ -54,19 +53,19 @@ export default {
   // Card Layout
   cards: {
     imageDimensions: '2x1', // Options: 1x1, 5x4, 4x3, 3x2, 5x3, 16x9, 2x1, 3x1, 4x5, 3x4, 2x3, 3x5, 9x16
-    theme: 'boxes' // Options: boxes, grid, image-grid
+    theme: 'grid' // Options: boxes, grid, image-grid
   },
 
   // Disqus
   disqus: {
     on: true,
-    loadingStrategy: 'button', // Options: onload, lazy, button
-    siteShortName: 'blog-danielkelly-io' // 'blog-danielkelly-io'
+    loadingStrategy: 'lazy', // Options: onload, lazy, button
+    siteShortName: 'dave walsh' // 'blog-danielkelly-io'
   },
 
   // Newsletter Subscribe
   newsletter: {
-    on: true,
+    on: false,
     heading: 'Subscribe to Our Newsletter',
     btnText: 'Subscribe',
     // Can be the form action on a mail chimp form, a hubspot form,
