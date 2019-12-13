@@ -64,7 +64,7 @@ export default {
   }
 }
 .logo-wrapper p {
-  font-size: 3em;
+  font-size: 2em;
   font-weight: bold;
 }
 </style>
