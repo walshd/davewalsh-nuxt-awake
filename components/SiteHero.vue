@@ -57,7 +57,7 @@ export default {
   margin-top: 52px;
   background-size: cover !important;
   background-position: center;
-  text-align: center;
+  text-align: left;
   overflow: hidden;
   position: relative;
 }
